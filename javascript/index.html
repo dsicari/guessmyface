@@ -1,0 +1,19 @@
+<html>
+  <body>
+<link rel="stylesheet" href="estilo.css">
+<div id="my_camera"></div>
+<form>
+  <input type=button class="btn btn-primary" value="Take Snapshot" onClick="take_snapshot()">
+</form>
+
+<canvas id="viewport" width="320" height="240"></canvas>
+
+<div>Your results will appear below:
+  <pre id="results">
+</pre>
+</div>
+<script src="webcam.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="face.js"></script>
+</body>
+</html>
