@@ -28,6 +28,9 @@ Webcam.set({
                 headers: {
                   'Ocp-Apim-Subscription-Key': 'ea041bd96b1a4aa3a34b05ed8c962f02'
                 },
+                parameters: {
+                  'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise',
+                },
                 processData: false,
                 data: blobData
               })
