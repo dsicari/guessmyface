@@ -1,0 +1,126 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-default {
+        padding: 0
+    }
+    .navbar-default.sticky {
+        padding: 0
+    }
+    .navbar-header {
+        text-align: center;
+        width: 100%
+    }
+    .navbar-brand {
+        float: none;
+        display: inline-block;
+        margin: 20px 0
+    }
+    .navbar-brand img {
+        margin: 0 auto
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none
+    }
+    .navbar .navbar-collapse {
+        text-align: center
+    }
+    .navbar-header {
+        width: 100%
+    }
+    .navbar-right {
+        float: none !important;
+        margin: 0
+    }
+    .intro-left img {
+        margin: 0 auto 25px
+    }
+    .intro-right {
+        text-align: center
+    }
+    .intro-right ul {
+        margin: 0 auto
+    }
+    .about-content .portfolica-btn,
+    .help-text {
+        margin-bottom: 25px
+    }
+    .help-text,
+    .contact-btn {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nav.navbar-nav.navbar-right {
+        background-color: #000;
+        margin: 0 30px
+    }
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a,
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+        color: #fff
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #ff6902
+    }
+    .navbar-default {
+        padding: 12px 0
+    }
+    .navbar-default .navbar-brand {
+        padding: 5px 15px
+    }
+    .navbar-default .navbar-brand img {
+        max-width: 125px
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: 0 none
+    }
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 15px
+    }
+    .intro {
+        padding: 120px 0
+    }
+    .intro-left img {
+        margin: 0 auto 25px
+    }
+    .intro-right {
+        text-align: center
+    }
+    .intro-right h2 {
+        font-size: 22px
+    }
+    .intro-right span {
+        font-size: 25px
+    }
+    .intro-right .typed-cursor {
+        margin: 26px 0
+    }
+    .intro-right ul {
+        margin: 0 auto;
+        max-width: 100%
+    }
+    .about-content,
+    .help-text {
+        margin-bottom: 25px
+    }
+    .help-text,
+    .contact-btn {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .intro-right h2 {
+        font-size: 18px
+    }
+    .intro-right span {
+        font-size: 22px
+    }
+}
