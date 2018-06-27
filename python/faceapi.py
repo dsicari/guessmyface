@@ -5,22 +5,6 @@ import requests
 import json
 from io import BytesIO
 from PIL import Image, ImageDraw
-import pygame.camera
-import pygame.image
-import sys
-
-#
-# CAMERA
-#
-
-pygame.camera.init()
-cameras = pygame.camera.list_cameras()
-print ("Using camera %s ..." % cameras[0])
-webcam = pygame.camera.Camera(cameras[0])
-
-#
-# API
-#
 
 # Replace 'KEY_1' with your subscription key as a string
 subscription_key = 'ea041bd96b1a4aa3a34b05ed8c962f02'
